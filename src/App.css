@@ -1,0 +1,347 @@
+:root {
+  --base-color: #F56411; /* Replace with your desired shade of blue */
+ 
+}
+
+@keyframes breathing-gradient {
+  /* 0% {
+    background-color: var(--base-color);
+  } */
+  10% {
+    background-color: rgba(var(--base-color-rgb), 0.8);
+  }
+
+  50%{
+    background-color: rgba(var(--base-color-rgb),0.6);
+  }
+  100% {
+    background-color: var(--base-color);
+  }
+
+}
+
+
+.header,.footer{
+  background-color: rgba(0, 0, 0, 0.945);
+}
+.welcome{
+  color: #F56411;
+}
+li{
+  font-weight: bold;
+}
+.exp-img{
+  width: 50%;
+  height: 50%;
+ display: block;
+ margin: auto;
+}
+.richarge-box{
+  display: flex;
+}
+
+.navbar{
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  
+
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+ 
+}
+
+.li {
+  list-style: none;
+  color: white;
+}
+
+/* BriefIntro CSS Code */
+.myName,.myAbout{
+  color: #fdfdfd;
+}
+
+.myAbout{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.contactMeButton{
+  width: 8rem;
+  height: 3rem;
+  margin-top: 3px;
+  border-radius: 7px;
+  border: none;
+  color: white;
+  background-color: #F56411;
+  font-weight: bold;
+}
+
+button{
+  height: 3rem;
+  margin-top: 3px;
+  
+}
+
+.coverImg{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 3px solid #F56411;
+}
+
+.introDiv{
+  display: flex;
+  background-image: url("../src/Assets/pronew.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  justify-content: space-around;
+
+}
+
+
+
+.skillDiv{
+  height: 100%;
+  /* background-color: blue;   */
+}
+
+.skillsName{
+  color: #F56411;
+  text-align: center;
+}
+
+.skills-list{
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skill-p{
+  text-align: center;
+}
+
+
+/* AboutMe CSS code */
+.aboutMe{
+  padding: 10px;
+  height: 100%;
+  /* animation: breathing-gradient 8s infinite;*/
+  background-color: rgba(0, 0, 0, 0.945); 
+}
+
+
+.aboutName{
+  text-align: center;
+  color: #F56411;
+}
+
+.aboutName-p{
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.experience{
+  /* background-color: blueviolet; */
+  background-color: rgba(0, 0, 0, 0.945);
+  height: 100%;
+}
+
+.main{
+  background-color: rgba(0, 0, 0, 0.945);
+}
+
+.myExp{
+  color: #F56411;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.experienceDiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.experience-box{
+  padding-top: 7px;
+  border-radius: 10px;
+  margin-top: 1rem;
+  border: 3px solid #fdfdfd;
+  width: 15rem;
+  height: 70%; 
+  background-color: #F56411;
+  box-shadow: 5px 5px 3px rgba(1, 0, 0, 0.548);
+  transition: transform 0.3s ease-in-out;
+  background-color: 0.3s ease-in-out;
+}
+
+h2{
+  text-align: center;
+  color: #fdfdfd;
+}
+
+.learn-more{
+  width: 8rem;
+  height: 3rem;
+  margin-top: 3px;
+  border-radius: 1.5rem;
+  border-color: #fdfdfd;
+  color: #F56411;
+  background-color: #fdfdfd;
+  border-style: dotted;
+  margin: auto;
+  display: block;
+  font-weight: bold;
+}
+
+
+.projects{
+  color: #F56411;
+  height: 100%;
+  /* background-color: green; */
+}
+
+.projectsDiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.projectName{
+text-align: center;
+}
+
+.contactDiv{
+  height: 100%;
+  /* background-color: red; */
+}
+
+.connects{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contactName{
+  text-align: center;
+  color: #F56411;
+}
+p,h3{
+  text-align: center;
+  color: #fdfdfd;
+  
+}
+
+.lag-img{
+  background-color: white;
+}
+
+.connect-btn,.email-btn{
+  width: 8rem;
+  height: 3rem;
+  margin-top: 3px;
+  border-radius: 7px;
+  border: none;
+  color: white;
+  /* background-color: #F56411; */
+  font-weight: bolder;
+  
+}
+
+.connect-btn{
+  width: 15rem;
+}
+.connects{
+  flex-wrap: wrap;
+}
+.connect-div{
+  padding: 2rem;
+}
+
+.connect-btn,.contactMeButton,.email-btn{
+  animation: breathing-gradient 5s infinite;
+
+  background-color: #F56411;
+  border: 2px solid #fdfdfd;
+}
+.proj-img{
+  width: 100%;
+  height: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+.experience-box:hover{
+  transform: scale(1.1);
+  background-color: #0000;
+}
+a:hover{
+  cursor: pointer;
+}
+button:hover{
+  cursor: pointer;
+}
+
+@media only screen and (max-width:714px) {
+  .navlinks{
+    display: none;
+  }
+
+  .contactMeButton{
+    margin-top: 15px;
+  }
+  .introDiv{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .myName{
+    font-size: 1rem;
+  }
+.myAbout{
+  font-size: 1rem;
+}
+.myCoverImg{
+  height: 60%;
+}
+.aboutMe{
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+.myName{
+  text-align: center;
+}
+.myAbout{
+  text-align: center;
+}
+.navbar{
+ position: fixed;
+  top: 0; /* Set the desired distance from the top of the screen */
+  left: 0; /* Set the desired distance from the left of the screen */
+  width: 100%; /* Ensure the Nav spans the full width of the screen */
+  height: 5rem;
+  background-color: black;
+
+
+}
+
+.header{
+  margin-bottom: 4rem;
+}
+
+}
